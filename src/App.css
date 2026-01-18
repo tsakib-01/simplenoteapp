@@ -1,27 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  body {
-    @apply font-sans;
-  }
-}
-
-@layer components {
-  .note-card {
-    @apply bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300;
-  }
-  
-  .input-field {
-    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
-  }
-  
-  .btn-primary {
-    @apply px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg;
-  }
-  
-  .btn-danger {
-    @apply text-red-500 hover:text-red-700 transition-colors duration-200 transform hover:scale-110;
-  }
-}
